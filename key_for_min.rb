@@ -6,7 +6,6 @@ def key_for_min_value(name_hash)
     if name_hash[key] < val
       return val
     end
-    nil
   end
-
+  nil
 end
